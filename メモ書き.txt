@@ -1,0 +1,44 @@
+＜あとやるべきこと＞
+・ＰＨＰでstep01で入力された値を受け取るようにする
+・各stepページをtmplで切り替えたい（それともヒアドキュメントを使う？）
+
+・border-color:;が青色のままになっている。緑に変更したい
+
+
+
+
+省略していしまった箇所など
+複雑なコード
+
+div id="modal_window" style="height: "のところ。
+select id="highschool_state" name="" onchange="">のところ
+
+高校メイの一部を入力してください
+の下の、
+button onclickのところ
+
+
+oncahnge="setHighSchool($('#highschool_state').val(),$('#keyword').val())">
+
+<button onclick="setHighSchool($('#highSchool_state').val(),$('#keyword').val()); return false;">検索</button>
+
+onchange="setHighSchool($('#highschool_state').val(),$('#keyword').val())">
+
+
+
+
+conf.tmplの資料の部分。
+<tr></tr>の中身。
+
+<th style="width: 80px !important; table-layout:fixed !important;" valign="top";>
+                <img src="images/2635.jpg">
+              </th>
+              <td class="books_summary">
+                <strong class="cl">EAST TOKYO UNIVERCITY GUIDE BOOK2020(大学案内)</strong>
+                <br>
+                無料 | 発送中
+              </td>
+              <td>
+                <label>
+                <input type="checkbox" name="" checked="checked">選択</label>
+              </td>

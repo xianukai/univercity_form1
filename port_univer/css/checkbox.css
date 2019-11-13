@@ -1,0 +1,154 @@
+﻿@charset="utf-8";
+
+body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  float: left;
+  width: 900px;
+}
+.check {
+  background-color: yellow;
+    background: #FFF100;
+    margin: 15px 0;
+    font-weight: bold;
+    padding: 8px 0 8px 0;
+    width: 100%;
+}
+/*
+input[type="checkbox"] {
+
+}*/
+input {
+    color: #000 !important;
+}
+input {
+    font: inherit;
+}
+
+
+/*近畿大学風*/
+.Display-Flex.flex-wrap {
+    flex-wrap: wrap;
+}
+.Display-Flex{
+    justify-content: space-between;
+}
+/*main_Pamphlet*/
+.main_Pamphlet {
+    border: solid 2px #E5E5E5;
+    padding: 10px 25px;
+    width: 100%;
+    margin-top: 8px;
+}
+.title {
+    font-size: 19px;
+}
+.title {
+    color: #5C5DE5;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: top;
+}
+.flex .document_content {
+    width: 70%;
+    margin-left: 10px;
+}
+.conditions {
+    margin: 5px 0;
+}
+.check {
+    background: #FFF100;
+    margin: 15px 0;
+    font-weight: bold;
+    padding: 8px 15px;
+    width: 40%;
+}
+.check label {
+    color: #5C5DE5;
+    font-size: 18px;
+}
+/*/main_Pamphlet*/
+
+/*sub_Pamphlet*/
+.sub_Pamphlet {
+    border: solid 2px #e6e6e6;
+    padding: 10px 10px 11px;
+    width: 330px;
+    margin: 10px 0 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+}
+.sub_Pamphlet .title {
+    font-size: 19px;
+    line-height: 1.4;
+    height: 44px;
+}
+.sub_Pamphlet .flex {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.sub_Pamphlet .flex .Pamphlet_img {
+    width: 33%;
+}
+.sub_Pamphlet .flex .document_content {
+    width: 60%;
+    margin-left: 10px;
+}
+
+
+.sub_Pamphlet .flex .document_content .Pamphlet_content .check {
+    background: #FFF100;
+    margin: 15px 0;
+    font-weight: bold;
+    padding: 8px 15px;
+    width: 91%;
+}
+/*
+input, #request-list select, #request-list textarea {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    -moz-appearance: none;
+}
+*/
+.sub_Pamphlet .flex .document_content .Pamphlet_content .check label {
+    color: #5C5DE5;
+    font-size: 18px;
+    vertical-align: text-top;
+}
+.label {
+    position: relative;
+    padding: 0 0 0 42px;
+}
+
+/*/sub_Pamphlet*/
+
+/*□の調整*/
+input[type=checkbox] {
+  width: 23px;
+  height: 23px;
+  border: 1px solid blue;
+  background-color:#fff;
+  left: 0px;
+  margin-right: -40px;
+  vertical-align: middle;
+  display:table-cell;
+}
+/*/□の調整*/

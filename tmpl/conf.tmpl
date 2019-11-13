@@ -1,0 +1,238 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>内容の確認</title>
+<link rel="stylesheet" href="css/style4.css">
+</head>
+<body>
+<form action="form.php" method="post">
+  <input type="hidden" name="mode" value="send">
+  <input type="hidden" name="name" value="!name!">
+  <input type="hidden" name="name2" value="!name2!">
+  <input type="hidden" name="kana" value="!kana!">
+  <input type="hidden" name="kana2" value="!kana2!">
+  <input type="hidden" name="type" value="!type!">
+  <input type="hidden" name="highschool" value="!highschool!">
+  <input type="hidden" name="keyword" value="!keyword!">
+  <input type="hidden" name="gender" value="!gender!">
+  <input type="hidden" name="birthday" value="!birthday!">
+  <input type="hidden" name="birthday2" value="!birthday2!">
+  <input type="hidden" name="birthday3" value="!birthday3!">
+  <input type="hidden" name="zip" value="!zip!">
+  <input type="hidden" name="zip2" value="!zip2!">
+  <input type="hidden" name="state" value="!state!">
+  <input type="hidden" name="address" value="!address!">
+  <input type="hidden" name="address2" value="!address2!">
+  <input type="hidden" name="address3" value="!address3!">
+  <input type="hidden" name="phone" value="!phone!">
+  <input type="hidden" name="phone2" value="!phone2!">
+  <input type="hidden" name="phone3" value="!phone3!">
+  <input type="hidden" name="mobile" value="!mobile!">
+  <input type="hidden" name="mobile2" value="!mobile2!">
+  <input type="hidden" name="mobile3" value="!mobile3!">
+  <input type="hidden" name="dm" value="!dm!">
+  <input type="hidden" name="elements" value="!elements!">
+  
+  <div id="wrapper" class="bd pc">
+    <div id="header">
+      <h1>
+        <div id="log"><a href="form.html">
+        <img src="images/logo12.png" alt="西東京大学"></a>
+        <!--images/c_bg_foot_mark.gif-->
+        </div>
+      </h1>
+      <p>
+        <a href="form.html" class="cl_a pc pccss">
+          <span>西東京大学ホームページに戻る</span>
+        </a>
+        <a href="form.html" class="cl spcss">
+          <span>ホームページ</span>
+        </a>
+      </p>
+    </div>
+    
+    <div id="midasi" class="bg">
+      <div id="flow" class="bg">
+        <p class="spcss">
+          step01
+          > <span>step02</span> > step03
+        </p>
+        <ul>
+          <li>
+            Step01<br>情報入力
+          </li>
+          <li class="arrow">></li>
+          <li class="on cl">
+            Step02<br>内容の確認
+          </li>
+          <li class="arrow">></li>
+          <li>
+            Step03<br>お申込み完了
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="main"></div>
+    <div id="item" class="main">
+      <h2 class="headerstyle01">
+        <span>資料請求</span>
+      </h2>
+      <div class="form main_inner">
+        <dl class="fl">
+          <dt class="cl" style="height: 19px">
+            <span class="new cl">資料</span>
+            <span class="required bg">必須</span>
+          </dt>
+          <dd style="height=19px;">
+            !elements!
+          </dd>
+        </dl>
+      </div>
+      <h2 class="headerstyle01">
+        <span>基本情報</span>
+      </h2>
+      <div id="input_form01" class="form main_inner">
+        <dl class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">名前</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height=19px;">
+              !name!!name2!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">フリガナ</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height=19px;">
+              !kana!!kana2!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">区分</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height=19px;">
+              !type!
+            </dd>
+          </dl>
+          <dl id="school" class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">高校名(卒業校名)</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height=19px;">
+              !highschool!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height=: 19px;">
+              <span class="new cl">性別</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height: 19px;">
+              !gender!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">生年月日</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height: 19px;">
+              !birthday!年!birthday2!月!birthday3!日
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 23px">
+              <span class="new cl">郵便番号</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height: 23px;">
+              !zip!-!zip2!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">住所</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height: 19px;">
+              !state!!address!!address2!!address3!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 21px">
+              <span class="new cl">電話番号</span>
+              <span class="required bg">必須</span>
+            </dt>
+            <dd style="height: 21px;">
+              !phone!-!phone2!-!phone3!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">e-mail(携帯)</span>
+            </dt>
+            <dd style="height: 19px;">
+              !mobile!
+            </dd>
+          </dl>
+          <dl class="fl">
+            <dt class="cl" style="height: 19px">
+              <span class="new cl">
+                今後DM送付を受け取りますか？
+              </span>
+            </dt>
+            <dd style="height: 19px;">
+              !dm!
+            </dd>
+          </dl>
+        </div>
+    </div>
+    <div class="box_btn_submit">
+      <div class="submit_layout">
+        <p class="form_next pccss">
+          <input type="image" src="images/btn_change.jpg" name="submit[confirm]" value="修正する" onclick="history.back()">
+          <input type="submit" value="" alt="申込み完了" style="background:url('images/btn_pc-submit_off.jpg');width:210px;height:45px;border:0px solid; cursor: pointer">
+        </p>
+        <!--
+        <p class="form_next spcss">
+          <input type="image" src="images/.jpg" name="submit[confirm]" value="確認画面へ">
+        </p>
+        -->
+      </div>
+    </div>
+    <div id="pagetop" class="bd">
+      <p>
+        <a class="bg scroll" href="#">
+          <span>PAGE TOP</span>
+        </a>
+      </p>
+    </div>
+    <div id="footer" class="bd">
+      <h2 class="pc">
+        <!--<img src="images/.jpg" alt="西東京大学">-->
+        <h1>
+        <div id="log"><a href="form.html">
+          <img src="images/logo9.png" alt="西東京大学"></a>
+        </div>
+      </h1>
+      </h2>
+      <p>
+        <a class="cl_a" href="#">
+          <span>資料請求フォームのトップに戻る</span>
+        </a>
+      </p>
+    </div>
+    <address class="bg cl bd">&copy;2019 西東京大学 All Rights Reserved.</address>
+  </div>
+</form>
+
+
+</body>
+</html>

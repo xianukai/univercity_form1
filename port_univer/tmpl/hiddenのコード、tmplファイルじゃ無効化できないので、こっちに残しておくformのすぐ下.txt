@@ -1,0 +1,14 @@
+conf.tmpl
+の<input type="hidden" name="">のところ
+tmplだと<!---->で無効化できないようなので、消した。
+<form action="form.php">のすぐ下にあった。
+
+<!--
+  <input type="hidden" name="college_code" value="4041">
+  <input type="hidden" name="form_code" value="1"> -->
+
+
+
+send.tmpl
+送信しましたの次の、
+<input type="" name="submit[confirm]">を削った
